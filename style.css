@@ -41,6 +41,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  padding-bottom: 10px;
 }
 
 .assignment {
@@ -83,5 +84,19 @@ a {
   background: #F06;
   color: #FFF;
   text-decoration: none;
+}
+
+/* Pre and code CSS blocks taken from Chris Coyier:
+https://digwp.com/2012/06/displaying-code-on-a-wordpress-site/
+and will be modified further later. */
+code {
+  font: 13px Monaco;
+}
+
+pre {
+  background: #333;
+  color: white;
+  padding: 20px;
+  margin: 0 0 20px 0;
 }
 
