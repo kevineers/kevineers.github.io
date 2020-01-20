@@ -153,6 +153,9 @@
             another method (lightLoop) that could then (1) generate the delay in ms and (2) control the 
             fading speed and actual fades of the 2 LEDs itself. To declare a delay variable upon initialization 
             of a method, I double-checked documentation from here: https://www.arduino.cc/en/Reference/FunctionDeclaration. 
+            During the button push run, analogWrite is used to allow for smooth and gradual fading of the LED lights. However, 
+            once back to the original states (off for red, on for blue), digitalWrite is used as the LEDs only 
+            need to be on/off (or high/low). 
             </p>
         </div>
 
