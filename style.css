@@ -98,5 +98,6 @@ pre {
   color: white;
   padding: 20px;
   margin: 0 0 20px 0;
+  overflow: auto;
 }
 
